@@ -1,29 +1,40 @@
 {
-	"name": "people",
-	"description": "Populate a JSON object, save it, change it, send it, validate it, and more",
-	"version": "1.0.1",
-	"author": {
-		"name": "Sandro Pasquali",
-		"email": "spasquali@gmail.com"
-	},
-	"main": "./lib/index.js",
-	"repository": {
-		"type"  : "git",
-		"url"   : "https://github.com/sandro-pasquali/people"
-	},
-	"bugs": {
-		"url": "https://github.com/sandro-pasquali/people/issues"
-	},
-	"engines": {
-		"node": ">= 0.10.17"
-	},
-	"licenses": [{
-		"type": "MIT",
-		"url": "http://opensource.org/licenses/MIT"
-	}],
-	"keywords": [
-		"nodejs"
-	],
-	"dependencies": {
-	}
+  "name": "people",
+  "description": "Populate a JSON object, save it, change it, send it, validate it, and more",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sandro Pasquali",
+    "email": "spasquali@gmail.com"
+  },
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandro-pasquali/people"
+  },
+  "bugs": {
+    "url": "https://github.com/sandro-pasquali/people/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.40"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "JSON",
+    "JSONSchema"
+  ],
+  "dependencies": {
+    "jsonschema-api": "^1.1.2"
+  },
+  "devDependencies": {
+    "apt-tap": "^1.0.1",
+    "apt-tap-basic": "^1.0.0",
+    "blue-tape": "^0.1.10",
+    "bluebird": "^2.10.2",
+    "glob": "^5.0.15"
+  }
 }
